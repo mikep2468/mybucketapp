@@ -125,7 +125,7 @@ export class PipelineStack extends cdk.Stack {
                 phases: {
                     install: {
                         commands: [
-                            'cd cdk-codepipeline-cross-account/ && npm i -g npm && npm ci && npm i -g aws-cdk',
+                            'npm i -g npm && npm ci && npm i -g aws-cdk',
                             'npm install -g awsudo'
                         ]
                     },

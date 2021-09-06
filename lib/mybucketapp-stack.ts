@@ -7,13 +7,13 @@ export class MybucketappStack extends cdk.Stack {
 
     // The code that defines your stack goes here
     
-    new s3.Bucket(this, 'mybucketapp-bucket-1-05092021', {
+    new s3.Bucket(this, 'mybucketapp-bucket-1-06092021', {
       bucketName: 'mybucketapp-bucket-1-05092021',
       removalPolicy: cdk.RemovalPolicy.DESTROY,
       versioned: false,
     });
 
-    new s3.Bucket(this, 'mybucketapp-bucket-2-05092021', {
+    new s3.Bucket(this, 'mybucketapp-bucket-2-06092021', {
       bucketName: 'mybucketapp-bucket-2-05092021',
       removalPolicy: cdk.RemovalPolicy.DESTROY,
       versioned: false,
