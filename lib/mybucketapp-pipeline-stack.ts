@@ -83,7 +83,8 @@ export class PipelineStack extends cdk.Stack {
             resources: ['*'],
             actions: [
                 'cloudformation:*',
-                'sts:AssumeRole'
+                'sts:AssumeRole',
+                's3:*'
             ],
         }));
 
